@@ -9,8 +9,8 @@ header h2 {
 h4 {
     font-family:'Comic Neue', cursive;  ;
     margin-left: 5mm;
-    margin-top:-8mm ;
-    padding-top: -1mm;
+   z-index: 0 ;
+    
 }
 
 .left {
@@ -38,15 +38,17 @@ margin-right: 1mm  ;
 }
 h1 {
     font-family: 'Kalam', cursive;
-    font-weight: 300;
-    font-size: 10mm;
+    font-weight: 305;
+    font-size: 11mm;
+
+    
 
 
 }
 h6 {
     color: gray ;
-    margin-top: -1mm ;
-    padding-top: -5mm;
+    margin: 0mm ;
+
 }
 
 #thepic {
@@ -67,24 +69,27 @@ p {
     width: 315mm ;
 }
 
-#icon{
+#icon2{
     float: left ;
-    width: 20;
-    margin-right: 10cm ;
+    width: 32;
+    margin-left: 0cm ;
+    
 }
 
 #bio {
 
 font-size:large ;
 color: black;
-padding-bottom: 2cm;
+float: left;
 }
 #van {
     padding-right: 5cm;
     color: black;
     margin-right: 5cm ;
+    margin-left: 1cm ;
     font-size: large ;
-     ;
+    float: left ;
+    font-weight: 900  ;
 }
 
 #line {
@@ -122,4 +127,13 @@ padding-bottom: 2cm;
 button {
     background-color: firebrick;
     color: floralwhite;
+}
+#share {
+    float: right;
+}
+#final {
+    text-align: center;
+}
+#touch{
+    text-align: center ;
 }
