@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Dancing+Script:wght@700&display=swap');
+header h2 {
+    font-family: 'Dancing Script', cursive; ;
+    font-size: 10mm;
+}
+h4 {
+    font-family:'Comic Neue', cursive;  ;
+    margin-left: 5mm;
+   z-index: 0 ;
+    
+}
+
+.left {
+    float: right ;
+margin-right: 1mm  ;
+}
+
+.right {
+    float: left;
+    margin-right: 2mm ;
+}
+.left1 {
+    float: right ;
+    margin-right: 1mm  ;
+    margin-left:1mm ;
+
+
+}
+.left2 {
+    float: right ;
+    margin-right: 0mm  ;
+    margin-left:2mm ;
+
+
+}
+h1 {
+    font-family: 'Kalam', cursive;
+    font-weight: 305;
+    font-size: 11mm;
+
+    
+
+
+}
+h6 {
+    color: gray ;
+    margin: 0mm ;
+
+}
+
+#thepic {
+    width: 340mm ;
+}
+
+p {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#print {
+    float: right ;
+    padding: top -5mm; ;
+}
+
+#not {
+    width: 315mm ;
+}
+
+#icon2{
+    float: left ;
+    width: 32;
+    margin-left: 0cm ;
+    
+}
+
+#bio {
+
+font-size:large ;
+color: black;
+float: left;
+}
+#van {
+    padding-right: 5cm;
+    color: black;
+    margin-right: 5cm ;
+    margin-left: 1cm ;
+    font-size: large ;
+    float: left ;
+    font-weight: 900  ;
+}
+
+#line {
+    width : 200 ;
+}
+
+    hr { 
+        background: url('img/Logo-old.PNG') no-repeat top center  ;
+        background-size: contain ;
+        display: block;
+        height: 18px;
+        border: 0;
+        position: relative;
+        
+    }
+    hr:before,
+    hr:after {
+        content: '';
+        display: block;
+        position: absolute;
+        background: #d7d7d7;
+        height: 2px;
+        top: 8px;
+    }
+    hr:before {
+        left: 0;
+        right: 50%;
+        margin-right: 10px;
+    }
+    hr:after {
+        right: 0;
+        left: 50%;
+        margin-left: 10px;
+    }
+button {
+    background-color: firebrick;
+    color: floralwhite;
+}
+#share {
+    float: right;
+    background-color: #ce6453 ;
+    color: floralwhite;
+    padding : 20px;
+    width: 200px;
+    font-size: large;
+    height: 70px;
+    border: none;
+}
+#final {
+    text-align: center;
+}
+#touch{
+    text-align: center ;
+}
+#line { 
+    display: flex; 
+    flex-direction: row; 
+} 
+  
+#line:before, 
+#line:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 2px solid #000; 
+    margin: auto; 
+} 
+      
+   
